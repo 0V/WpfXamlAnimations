@@ -1,0 +1,45 @@
+﻿<Window x:Class="HoverAnimationDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="740" Background="#FFEAEAEA">
+    <Window.Resources>
+        <ResourceDictionary Source="HoverAnimationResources.xaml"/>
+    </Window.Resources>
+    <Grid>
+        <WrapPanel Margin="0">
+            <Button Name="hoverButton1" Content="Button1" Width="200" Height="54" Margin="20"
+                    Style="{StaticResource HoverButtonStyleKey1}" />
+            <Button Name="hoverButton2" Content="Button2" Width="200" Height="54" Margin="20"
+                    Style="{StaticResource HoverButtonStyleKey2}" />
+            <Button Name="hoverButton3" Content="Button3" Width="200" Height="54" Margin="20"
+                    Style="{StaticResource HoverButtonStyleKey3}" />
+            <Button Name="hoverButton4" Content="Button4" Width="200" Height="54" Margin="20"
+                    Style="{StaticResource HoverButtonStyleKey4}" />
+            <Button Name="hoverButton5" Content="Button5(未実装)" Width="200" Height="54" Margin="20"
+                    Style="{StaticResource HoverButtonStyleKey5}" />
+            
+            <Border>
+                <Border.Background>
+                    <ImageBrush ImageSource="Resources/background001.jpg"/>
+                </Border.Background>
+                <Button Name="hoverButton6" Content="Button6" Width="200" Height="54" Margin="20"
+                        Style="{StaticResource HoverButtonStyleKey6}" />
+            </Border>
+            
+            <Button Name="hoverButton7" Content="Button7" Width="200" Height="54" Margin="20"
+                    Style="{StaticResource HoverButtonStyleKey7}" />
+            <Button Name="hoverButton8" Content="Button8" Width="200" Height="54" Margin="20"
+                    Style="{StaticResource HoverButtonStyleKey8}" />
+            <Button Name="hoverButton9_1" Content="Button9-1" Width="200" Height="54" Margin="20"
+                    Style="{StaticResource HoverButtonStyleKey9_1}" />
+            <Button Name="hoverButton9_2" Content="Button9-2" Width="200" Height="54" Margin="20"
+                    Style="{StaticResource HoverButtonStyleKey9_2}" />
+            <Button Name="hoverButton10" Content="Button10" Width="200" Height="54" Margin="20"
+                    Style="{StaticResource HoverButtonStyleKey10}" />
+            <Button Name="hoverButton11" Content="Button11" Width="200" Height="54" Margin="20"
+                    Style="{StaticResource HoverButtonStyleKey11}" />
+            <Button Name="hoverButton12" Content="Button12(未実装)" Width="200" Height="54" Margin="20"
+                    Style="{StaticResource HoverButtonStyleKey12}" />
+        </WrapPanel>
+    </Grid>
+</Window>
