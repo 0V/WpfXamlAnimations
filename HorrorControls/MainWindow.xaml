@@ -12,8 +12,11 @@
     <WrapPanel Name="horrorPanel">
         
         <!-- マウスドラッグで移動可能なHorrorEyeControl -->
-        <local:HorrorEye Margin="100"/>
-        
+        <local:HorrorEye Margin="100" Cursor="Hand"/>
+
+        <!-- マウスドラッグで移動不可なHorrorEyeControl -->
+        <local:HorrorEyeNoDrag Margin="100"/>
+
         <Border Width="100" Height="100" Background="Black">
             <i:Interaction.Behaviors>
                 <ei:MouseDragElementBehavior/>
