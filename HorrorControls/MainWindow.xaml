@@ -1,0 +1,25 @@
+﻿<Window x:Class="HorrorControls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"        
+        xmlns:local="clr-namespace:HorrorControls"
+        AllowsTransparency="True" Background="Transparent" WindowStyle="None" Topmost="True"  WindowState="Maximized"
+        Foreground="{x:Null}" 
+        Title="HorrorControlsDemo" Height="350" Width="500">
+    <Window.Resources>
+        <ResourceDictionary Source="ControlResources/HorrorResources.xaml"/>
+    </Window.Resources>
+    <WrapPanel Name="horrorPanel">
+        
+        <!-- マウスドラッグで移動可能なHorrorEyeControl -->
+        <local:HorrorEye Margin="100"/>
+        
+        <Border Width="100" Height="100" Background="Black">
+            <i:Interaction.Behaviors>
+                <ei:MouseDragElementBehavior/>
+            </i:Interaction.Behaviors>
+            <!-- HorrorEye な Button -->
+            <Button Style="{StaticResource HorrorControlStyleKey1}"/>
+        </Border>
+    </WrapPanel>
+</Window>
