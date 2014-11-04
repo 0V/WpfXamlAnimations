@@ -30,3 +30,8 @@ CSS3 ライクなホバーエフェクトを XAML だけで実装してみた
 上記のマウスドラッグで移動できない版です。参照は不要です。  
 * HorrorResources.xaml  
 色々と Style が定義されていますがまともに使えるのは HorrorControlStyleKey1 くらいです。  
+  
+  
+  
+##MagicCircle
+魔法陣です。
