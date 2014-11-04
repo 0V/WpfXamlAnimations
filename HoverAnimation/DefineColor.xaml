@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Shared="False" x:Key="BlackThemeColor">#333</Color>
+    <Color x:Shared="False" x:Key="WhiteThemeColor">#FFF</Color>
+    <Color x:Shared="False" x:Key="OtherThemeColor">#FF59B1EB</Color>
+    <Color x:Shared="False" x:Key="ClearBlackThemeColor">#00333333</Color>
+    <Color x:Shared="False" x:Key="ClearWhiteThemeColor">#00FFFFFF</Color>
+
+</ResourceDictionary>
