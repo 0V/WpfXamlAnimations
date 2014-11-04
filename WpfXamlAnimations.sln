@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicCircle", "..\WpfXamlAnimation\MagicCircle\MagicCircle.csproj", "{9A2E1CF2-0272-422D-ACF5-C24A05D1C7A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorrorControls", "..\WpfXamlAnimation\HorrorControls\HorrorControls.csproj", "{0FF7F8AF-E96D-4D7F-AE58-BACE98CD1384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoverAnimationDemo", "..\WpfXamlAnimation\HoverAnimation\HoverAnimationDemo.csproj", "{5F3A7A29-BDF0-4B02-857C-70CC8193375B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A2E1CF2-0272-422D-ACF5-C24A05D1C7A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A2E1CF2-0272-422D-ACF5-C24A05D1C7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A2E1CF2-0272-422D-ACF5-C24A05D1C7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A2E1CF2-0272-422D-ACF5-C24A05D1C7A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF7F8AF-E96D-4D7F-AE58-BACE98CD1384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF7F8AF-E96D-4D7F-AE58-BACE98CD1384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF7F8AF-E96D-4D7F-AE58-BACE98CD1384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF7F8AF-E96D-4D7F-AE58-BACE98CD1384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3A7A29-BDF0-4B02-857C-70CC8193375B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3A7A29-BDF0-4B02-857C-70CC8193375B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3A7A29-BDF0-4B02-857C-70CC8193375B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3A7A29-BDF0-4B02-857C-70CC8193375B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

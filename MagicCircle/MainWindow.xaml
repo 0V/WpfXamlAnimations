@@ -1,0 +1,11 @@
+﻿<Window x:Class="MagicCircle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MagicCircle"
+        AllowsTransparency="True" Background="Transparent" WindowStyle="None" Topmost="True"  WindowState="Maximized"
+        Foreground="{x:Null}" 
+        Title="MainWindow" Height="500" Width="500">
+    <Grid>
+        <local:MagicCircleControl Height="300" Width="300"/>
+    </Grid>
+</Window>
