@@ -1,11 +1,61 @@
-﻿<Window x:Class="MagicCircle.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:MagicCircle"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" x:Class="MagicCircle.MainWindow"
         AllowsTransparency="True" Background="Transparent" WindowStyle="None" Topmost="True"  WindowState="Maximized"
         Foreground="{x:Null}" 
-        Title="MainWindow" Height="500" Width="500">
-    <Grid>
-        <local:MagicCircleControl Height="300" Width="300"/>
-    </Grid>
+        Title="MainWindow" Height="800" Width="800">
+    <Canvas>
+        <local:MagicCircleControl Height="300" Width="300" Canvas.Left="-24" Canvas.Top="445">
+            <i:Interaction.Behaviors>
+                <ei:MouseDragElementBehavior/>
+            </i:Interaction.Behaviors>
+        </local:MagicCircleControl>
+        <local:MagicCircleControl Height="100" Width="100" RenderTransformOrigin="1.5,2.4" Canvas.Left="707" Canvas.Top="645">
+            <i:Interaction.Behaviors>
+                <ei:MouseDragElementBehavior/>
+            </i:Interaction.Behaviors>
+        </local:MagicCircleControl>
+        <local:MagicCircleControl2 Height="300" Width="300" Canvas.Left="321" Canvas.Top="340">
+            <i:Interaction.Behaviors>
+                <ei:MouseDragElementBehavior/>
+            </i:Interaction.Behaviors>
+        </local:MagicCircleControl2>
+        <local:MagicCircleControl2 Height="240" Width="240" Canvas.Left="1225">
+            <i:Interaction.Behaviors>
+                <ei:MouseDragElementBehavior/>
+            </i:Interaction.Behaviors>
+        </local:MagicCircleControl2>
+        <local:MagicCircleControl Height="300" Width="300" Canvas.Left="321" Canvas.Top="-60">
+            <i:Interaction.Behaviors>
+                <ei:MouseDragElementBehavior/>
+            </i:Interaction.Behaviors>
+        </local:MagicCircleControl>
+        <local:MagicCircleControl2 Height="200" Width="200" Canvas.Top="340" Canvas.Left="1078">
+            <i:Interaction.Behaviors>
+                <ei:MouseDragElementBehavior/>
+            </i:Interaction.Behaviors>
+        </local:MagicCircleControl2>
+        <local:MagicCircleControl1 Height="400" Width="400" Canvas.Left="621" Canvas.Top="100">
+            <i:Interaction.Behaviors>
+                <ei:MouseDragElementBehavior/>
+            </i:Interaction.Behaviors>
+        </local:MagicCircleControl1>
+        <local:MagicCircleControl2 Height="60" Width="60" Canvas.Left="96" Canvas.Top="100">
+            <i:Interaction.Behaviors>
+                <ei:MouseDragElementBehavior/>
+            </i:Interaction.Behaviors>
+        </local:MagicCircleControl2>
+        <local:MagicCircleControl1 Height="140" Width="140" Canvas.Left="16" Canvas.Top="240">
+            <i:Interaction.Behaviors>
+                <ei:MouseDragElementBehavior/>
+            </i:Interaction.Behaviors>
+        </local:MagicCircleControl1>
+        <local:MagicCircleControl1 Height="200" Width="200" Canvas.Left="1127" Canvas.Top="645">
+            <i:Interaction.Behaviors>
+                <ei:MouseDragElementBehavior/>
+            </i:Interaction.Behaviors>
+        </local:MagicCircleControl1>
+    </Canvas>
 </Window>
