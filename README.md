@@ -55,6 +55,7 @@ This is a magic circle. Enjoy!
 jp: 魔法陣です。いえい！  
 
 
+![demo](https://raw.github.com/wiki/0V/WpfXamlAnimations/demo/MagicCircle.gif)
 
 ## HorrorControls Project
 ちょっと怖い UserControl や Style を作ってみた  
