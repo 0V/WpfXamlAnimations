@@ -14,7 +14,7 @@
         </ResourceDictionary>
     </Window.Resources>
     <WrapPanel Name="horrorPanel">
-        
+
         <!-- マウスドラッグで移動可能なHorrorEyeControl -->
         <local:HorrorEye Margin="100" Cursor="Hand"/>
 

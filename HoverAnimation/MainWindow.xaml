@@ -1,7 +1,7 @@
 ﻿<Window x:Class="HoverAnimationDemo.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
-        Title="MainWindow" Height="600" Width="740" Background="#FFEAEAEA">
+        Title="Animation Demo" Height="600" Width="740" Background="#FFEAEAEA">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -19,8 +19,6 @@
 				Style="{StaticResource HoverButtonStyleKey3}" />
             <Button x:Name="hoverButton4" Content="Button4" Width="200" Height="54" Margin="20"
 				Style="{StaticResource HoverButtonStyleKey4}" />
-            <Button x:Name="hoverButton5" Content="Button5(未実装)" Width="200" Height="54" Margin="20"
-				Style="{StaticResource HoverButtonStyleKey5}" />
             <Border>
                 <Border.Background>
                     <ImageBrush ImageSource="Resources/background001.jpg"/>
@@ -41,9 +39,9 @@
 				Style="{StaticResource HoverButtonStyleKey10}" />
             <Button x:Name="hoverButton11" Content="Button11" Width="200" Height="54" Margin="20"
 				Style="{StaticResource HoverButtonStyleKey11}" />
-            <Button x:Name="hoverButton12" Content="Button12(未実装)" Width="200" Height="54" Margin="20"
+            <Button x:Name="hoverButton12" Content="Button12" Width="200" Height="54" Margin="20"
 				Style="{StaticResource HoverButtonStyleKey12}" />
-            <Button x:Name="hoverButton13" Content="Button13(未実装)" Width="200" Height="54" Margin="20"
+            <Button x:Name="hoverButton13" Content="Button13" Width="200" Height="54" Margin="20"
 				Style="{StaticResource HoverButtonStyleKey13}"/>
         </WrapPanel>
     </Grid>
