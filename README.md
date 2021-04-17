@@ -24,11 +24,11 @@ jp: こちらの記事「[CSSのみで実装するボタンデザインやホバ
 
 ### Usage
 
-1. Import ''HoverAnimationResources.xaml and DefineColor.xaml'' to your project.
-1. jp: HoverAnimationResources.xaml と DefineColor.xaml をあなたのプロジェクトにインポートしてください。
+1. Import ''HoverAnimationResources.xaml and DefineColor.xaml'' to your project.  
+jp: HoverAnimationResources.xaml と DefineColor.xaml をあなたのプロジェクトにインポートしてください。
 
-2. Write the following code at the beginning of your XAML code.
-2. jp: 下のコードをXAMLの冒頭に書きます。
+2. Write the following code at the beginning of your XAML code.  
+jp: 下のコードをXAMLの冒頭に書きます。
 
 ```
     <Window.Resources>
@@ -40,8 +40,8 @@ jp: こちらの記事「[CSSのみで実装するボタンデザインやホバ
     </Window.Resources>
 ```
 
-3. Add property to control for applying hover animation style.
-3. jp: 属性を追加してスタイルを適用します。
+3. Add property to control for applying hover animation style.  
+jp: 属性を追加してスタイルを適用します。
 ```
 Style="{StaticResource HoverButtonStyleKey1}"
 ```
