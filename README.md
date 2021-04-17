@@ -20,6 +20,8 @@ This project is to reproduce the CSS3-like hover animation inspired by this arti
 
 jp: こちらの記事「[CSSのみで実装するボタンデザインやホバーエフェクト 20＋α](http://www.nxworld.net/tips/css-only-button-design-and-hover-effects.html)」を見て CSS3 の実力に感動し、ふとこれを XAML だけで再現してみようと思い実装しています。  
   
+![demo](https://raw.github.com/wiki/0V/WpfXamlAnimations/demo/WPFXAMLANIME.gif)
+
 ### Usage
 
 1. Import ''HoverAnimationResources.xaml and DefineColor.xaml'' to your project.
