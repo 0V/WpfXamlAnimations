@@ -1,26 +1,64 @@
 # WpfXamlAnimations
-XAML だけで色々やってみる  
+Only XAML WPF Animation Library  
+jp: XAML だけで色々やってみる  
 
-## HoverAnimationDemo  
-CSS3 ライクなホバーエフェクトを XAML だけで実装してみた  
+This repository contains the following project.  
+jp: このリポジトリは次のプロジェクトを含んでいます。 
 
-### 概要  
-こちらの記事「[CSSのみで実装するボタンデザインやホバーエフェクト 20＋α](http://www.nxworld.net/tips/css-only-button-design-and-hover-effects.html)」を見て CSS3 の実力に感動し、ふとこれを XAML だけで再現してみようと思い勢いで実装しました(しています)。 
+- HoverAnimatio
+- MagicCircle
+- HorrorControls
+
+
+## HoverAnimationDemo Project
+the CSS3-like hover effect implemented by XAML only  
+
+jp: CSS3 ライクなホバーエフェクトを XAML だけで実装してみた  
+
+### What's this?
+This project is to reproduce the CSS3-like hover animation inspired by this article (http://www.nxworld.net/tips/css-only-button-design-and-hover-effects.html).  
+
+jp: こちらの記事「[CSSのみで実装するボタンデザインやホバーエフェクト 20＋α](http://www.nxworld.net/tips/css-only-button-design-and-hover-effects.html)」を見て CSS3 の実力に感動し、ふとこれを XAML だけで再現してみようと思い実装しています。  
   
-### 使い方
-自分のアプリに埋め込みたいという人がいたら、ResourceDictionary にしてあるので HoverAnimationResources.xaml を抜き出して使ってください。  
+### Usage
+
+1. Import ''HoverAnimationResources.xaml and DefineColor.xaml'' to your project.
+1. jp: HoverAnimationResources.xaml と DefineColor.xaml をあなたのプロジェクトにインポートしてください。
+
+2. Write the following code at the beginning of your XAML code.
+2. jp: 下のコードをXAMLの冒頭に書きます。
+
+```
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="HoverAnimationResources.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+```
+
+3. Add property to control for applying hover animation style.
+3. jp: 属性を追加してスタイルを適用します。
+```
+Style="{StaticResource HoverButtonStyleKey1}"
+```
+
   
-### 進捗
-上記のサイトの 5 を除く 1~11 のアニメーションは実装済みです。
-  
-  
-  
-## HorrorControls
-ちょっと怖い UserControl や Style を作ってみた
+## MagicCircle Project
+
+### What's this?
+This is a magic circle. Enjoy!  
+
+jp: 魔法陣です。いえい！  
+
+
+
+## HorrorControls Project
+ちょっと怖い UserControl や Style を作ってみた  
 
 ### 概要  
 目がぐりぐり動いたりするちょっと怖い UserControl や Style を XAML だけで作りました。  
-実装次第ちょくちょく更新していきます。  
 
 ### 使い方
 * HorrorEye.xaml  
@@ -32,6 +70,3 @@ CSS3 ライクなホバーエフェクトを XAML だけで実装してみた
 色々と Style が定義されていますがまともに使えるのは HorrorControlStyleKey1 くらいです。  
   
   
-  
-## MagicCircle
-魔法陣です。
