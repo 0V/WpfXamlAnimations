@@ -2,7 +2,7 @@
 Only XAML WPF Animation Library  
 jp: XAML だけで色々やってみる  
 
-This repository contains the following project.  
+This repository contains the following projects.  
 jp: このリポジトリは次のプロジェクトを含んでいます。 
 
 - HoverAnimatio
