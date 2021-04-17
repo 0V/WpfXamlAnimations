@@ -5,7 +5,7 @@
         xmlns:i="http://schemas.microsoft.com/xaml/behaviors" xmlns:ei="http://schemas.microsoft.com/xaml/behaviors" x:Class="MagicCircle.MainWindow"
         AllowsTransparency="True" Background="Transparent" WindowStyle="None" Topmost="True"  WindowState="Maximized"
         Foreground="{x:Null}" 
-        Title="MainWindow" Height="800" Width="800">
+        Title="Programming is Magic" Height="800" Width="800">
     <Canvas>
         <local:MagicCircleControl Height="300" Width="300" Canvas.Left="-24" Canvas.Top="445">
             <i:Interaction.Behaviors>
